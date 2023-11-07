@@ -2,7 +2,18 @@
   <div>
     <div class="container mx-auto">
       <h1 class="text-lg font-bold">Serviços</h1>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi optio recusandae officia, possimus corrupti velit aperiam consequuntur nesciunt quibusdam eaque quidem labore unde fugiat magni aliquid, numquam magnam? Assumenda, voluptatum.</p>
+
+      <nuxt-link to="/servicos/desenvolvimento-de-sites">
+        Desenvolvimento de Sites
+      </nuxt-link>
+
+      <nuxt-link to="/servicos/marketing-digital">
+        Marketing Digital
+      </nuxt-link>
+
+      <br>
+
+      <nuxt-child />
     </div>
   </div>
 </template>
