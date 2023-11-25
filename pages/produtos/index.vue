@@ -17,6 +17,15 @@ export default {
     }
   },
 
+  async asyncData() {
+    await new Promise( (resolve) => {
+      setTimeout(() => {
+        resolve()
+        console.log('Promise resolved')
+      }, 3000);
+    })
+  },
+
   methods: {
 
   }
