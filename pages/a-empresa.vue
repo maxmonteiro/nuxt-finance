@@ -11,6 +11,12 @@
 export default {
   name: '',
 
+  // middleware() {
+  //   console.log('middleware empresa')
+  // },
+
+  middleware: 'auth',
+
   data() {
     return {
 
